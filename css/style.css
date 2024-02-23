@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    cursor: url(../image/caret-up-outline.png);
+}
+
+body{
+    background: url(../image/saint-seiya-knights-of-the-zodiac-2019\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form{
+    width: 40rem;
+    height: 50rem;
+    background-color: rgba(0, 0, 0, 0.825);
+    border: 1px solid rgba(0, 0, 255, 0.421);
+    padding: 8rem 2.9rem;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Kode Mono', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.container_login_passowrd{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+form div input{
+    background-color: rgba(48, 47, 47, 0.315);
+    height: 4.5rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 3px solid black;
+    outline: none;
+    color: white;
+}
+
+.container_checkbok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_checkbok input{
+    margin-right: .5rem;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 5rem;
+    width: 100vw;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+ul li a{
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.523);
+}
+
+ul li input{
+    margin-right: .5rem;
+
+}
+
+button{
+    margin-top: 5rem;
+    width: 34rem;
+    height: 4rem;
+    background-color: rgba(51, 55, 71, 0.391);
+    border: 1px solid rgba(255, 255, 255, 0.283);
+
+
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
